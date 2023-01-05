@@ -1,0 +1,496 @@
+<html>
+    <title>Contact Us | Gypsys</title>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+<style>
+    body{
+        margin: 0%;
+        background-attachment: fixed;
+        margin-right: auto;
+        margin-left: auto;
+        background-repeat: no-repeat;}
+      
+      
+       
+    .box{
+        background-color:black;
+        height: 80px;
+        width: 100%;
+        float: right;
+        color: cornsilk;
+        margin-left: 275px;
+        display:flex;
+        flex-direction:row;
+        justify-content: flex-end;
+       color:#FB5D23;
+       
+
+       font-size: 19px;
+       
+      
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+    }
+    a{
+        margin-left:20px;
+        margin-right:2em;
+        color: orangered;
+        text-decoration: none;
+
+    }
+    a:hover{
+color: white;
+padding-bottom:3px;
+border-bottom: 2px solid orangered;
+
+text-decoration-color: #FB5D23;
+    }
+    .babu{
+        width: 100%;
+        height: 70vh;
+        background-color: rgba(0,0,0,0.7);
+        background-image: url("c.jpg");
+        background-repeat: no-repeat;
+        /* background-repeat-x: no-repeat;
+        background-repeat-y: no-repeat; */
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: rgba(0,0,0,0.7);
+        background-position: center;
+        margin-top: 0px;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 70px;
+        color:whitesmoke;
+        flex-wrap: wrap;
+        padding-bottom: 10px;
+    
+    }
+    .mani{
+        width: 300px;
+        height: 200px;
+        background-color:whitesmoke;
+        margin-left: 200px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        border: solid orangered;
+        border-radius: 30px;
+        box-shadow: -10px 0px 5px 0px orangered;
+        
+
+        
+    }
+    .venkey{
+        width: 300px;
+        height: 200px;
+        background-color:whitesmoke;
+        margin-left: 350px;
+        margin-top: 0px;
+        margin-bottom: 100px;
+        border: solid orangered;
+        border-radius: 30px;
+        box-shadow: -10px 0px 5px 0px orangered;
+        
+
+    }
+    .rohith{padding: 10px;
+        padding-left: 110px;
+        
+        
+    }
+    .ball{
+       padding-left: 90px;
+    }
+    .pot{
+        padding: 10px;
+        padding-left: 110px;
+
+    }
+    .bat{
+        padding-left: 110px;
+
+    }
+    .cap{
+        font-size: 19px;
+        text-align: center;
+        padding-bottom: 10px;
+        margin-top: 0%;    
+    }
+    .cummins{
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            background-color:black;
+            color: whitesmoke;
+            padding: 30px;
+            text-align: center;
+            margin-top: 30px;
+            cursor: pointer;
+            
+        }
+         .cummins i:hover{
+            color: orangered;
+            text-decoration: none;
+            
+        }
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  /* background: linear-gradient(to right, #ea1d6f 0%, #eb466b 100%); */
+  background: whitesmoke;
+  font-size: 12px;
+  
+}
+
+body, button, input {
+  font-family: 'Montserrat', sans-serif;
+  /* font-weight: 700; */
+  letter-spacing: 1.4px;
+}
+
+/* .background {
+  display: flex;
+  min-height: 100vh;
+} */
+
+.container {
+  flex: 0 1 700px;
+  margin: auto;
+  padding: 10px;
+  margin-top: 200px;
+}
+
+.screen {
+  position: relative;
+  background: #3e3e3e;
+  border-radius: 15px;
+}
+
+.screen:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+  z-index: -1;
+}
+
+.screen-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: #4d4d4f;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.screen-header-left {
+  margin-right: auto;
+}
+
+.screen-header-button {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 3px;
+  border-radius: 8px;
+  background: white;
+}
+.screen-header-right {
+  display: flex;
+}
+
+.screen-header-ellipsis {
+  width: 3px;
+  height: 3px;
+  margin-left: 2px;
+  border-radius: 8px;
+  background: #999;
+}
+
+.screen-body {
+  display: flex;
+}
+
+.screen-body-item {
+  flex: 1;
+  padding: 50px;
+}
+
+.screen-body-item.left {
+  display: flex;
+  flex-direction: column;
+} 
+
+.app-title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+   color: orangered;
+  font-size: 26px;
+}
+
+.app-title:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 25px;
+  height: 4px;
+  background:whitesmoke;
+}
+
+.app-contact {
+  margin-top: auto;
+  font-size: 12px;
+  color:whitesmoke;
+}
+
+.app-form-group {
+  margin-bottom: 15px;
+}
+
+.app-form-group.message {
+  margin-top: 40px;
+}
+
+.app-form-group.buttons {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.app-form-control {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #666;
+  color: #ddd;
+  font-size: 14px;
+  text-transform: uppercase;
+  outline: none;
+  transition: border-color .2s;
+}
+
+.app-form-control::placeholder {
+  color: #666;
+}
+
+.app-form-control:focus {
+  border-bottom-color: #ddd;
+}
+
+.app-form-button {
+  background: none;
+  border: none;
+  color:orangered;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.app-form-button:hover {
+  color: whitesmoke;
+}
+.zip {
+            width: 80px;
+            height: 70px;
+            margin-right: 300px;
+            border: 1px solid snow;
+            border-radius: 50%;
+        } 
+
+        .dinesh{
+            color: orangered;
+            font-size: 16px;
+            text-align: center;
+            padding-top: 80px;
+        }
+        .russel{
+            width: 180px;
+            height: 50px;
+            border-left: 5px solid orangered;
+            font-size: 18px;
+            font-family: 'Poppins', sans-serif;
+            margin-top: 10px;
+            color: #FB5D23;
+            margin-left: 500px;
+            padding-left: 20px;
+        }
+         .russel:hover {
+            font-color: whitesmoke;
+            background-color: orangered;
+            border-left: 5px solid whitesmoke;
+        } 
+
+</style>
+<script src='script.js'></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("user_K6rUYB4Tctsq9dqgiNm0p");
+})();
+</script>
+    </head>
+
+    <body>
+
+        <div class="box">
+             <div class="logo">
+                <img class="zip" src="Logo.png" alt="">
+            </div>
+    
+             
+    <div class='a'> 
+    <a href="home.html"target="_blank">Home</a>
+    </div>
+    <div class='a'> 
+        <a href="planss.html"target="_blank">Plans</a>
+        </div>
+        <div class='a'> 
+            <a href="cars.html"target="_blank">Cars</a>
+            </div>
+            <div class='a'> 
+                <a href="gallery.html"target="_blank">Gallery</a>
+                </div>
+                <div class='a'> 
+                    <a href="contact_us.html"target="_blank">Contact us</a>
+                    </div>
+                <div class='a'> 
+                    <a href="about_us.html"target="_blank">About us</a>
+                
+                    </div>
+                    
+    
+    
+       </div>
+       <div class="babu">
+        Contact Us
+    
+    </div>
+    
+        <div class="mani">
+        
+            <div class="rohith">
+                <img src="ppp.jpg" width="75px" height="75px">
+            </div>
+                <div class="ball">
+                    <h2><font color="orangered">
+                        Make a call
+                       <font color="black">
+                        9100458446
+                       </font> 
+            
+                    </font></h2>
+                    <div class="venkey">
+                        <div class="pot">
+                            <img src="mail.png" width="75px" height="75px">
+    
+                        </div>
+                        <div class="bat">
+                            <h2><font color="orangered">
+                                E-mail
+    
+                                
+                            </font></h2>
+                        </div>
+                            <div class="cap">
+                                <font color="black"> 
+    
+                                    <b>Gypsys@gmail.com</b>
+                                   </font>
+                            </div>
+                            
+    
+    
+                        
+                        
+                    </div>
+            
+        
+        </div>
+        
+                
+        
+                    </div>
+                 
+            </div>
+        </div>
+    </div>
+        <div class="background">
+            <div class="container">
+              <div class="screen">
+                <div class="screen-header">
+                 
+                </div>
+                <div class="screen-body">
+                  <div class="screen-body-item left">
+                    <div class="app-title">
+                      <span>CONTACT WITH</span>
+                      <span>US</span>
+                    </div>
+                    <div class="app-contact">CONTACT INFO : +918008996171</div>
+                  </div>
+                  <div class="screen-body-item">
+                    <div class="app-form">
+                      <div class="app-form-group">
+                        <input class="app-form-control" placeholder="NAME"type="text" id="firstname" >
+                      </div>
+                      <div class="app-form-group">
+                        <input class="app-form-control" placeholder="EMAIL"type="text" id="Gmail id" >
+                      </div>
+                      <div class="app-form-group">
+                        <input class="app-form-control" placeholder="CONTACT NO"type="text" id="number">
+                      </div>
+                      <div class="app-form-group message">
+                        <input class="app-form-control" placeholder="MESSAGE"type="text" id="msg">
+                      </div>
+                      <div class="app-form-group buttons">
+                        <button class="app-form-button">CANCEL</button>
+                        <button class="app-form-button"onclick='sendMail()'>SEND</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="dinesh">
+                <h1>
+                 Whatever you need, we’ll make it happen. Good Feedback is the key to improvement
+                </h1>
+     
+                 </div>
+                 <button class="russel">
+                  <a href="usssss.html"target="_blank">
+                  Feedback
+                  </a>
+  
+              </button>
+
+
+              <div class="cummins">
+                We're Social ! Connect with Us On &nbsp;&nbsp;
+                <i class="bi bi-facebook"></i>&nbsp;
+                <i class="bi bi-instagram"></i>&nbsp;
+                <i class="bi bi-whatsapp"></i>&nbsp;
+                <i class="bi bi-envelope"></i>&nbsp;
+                <i class="bi bi-twitter"></i>&nbsp;
+                </div>
+    </body>
+</html>
